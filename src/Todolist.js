@@ -21,7 +21,7 @@ function Hello() {
   return <h1>Hello</h1>;
 }
 
-function App() {
+function ToDoList() {
   const [toDo, setToDo] = useState("");
   const [toDos, setToDos] = useState([]);
   const onChange = (event) => setToDo(event.target.value);
@@ -59,4 +59,4 @@ function App() {
   );
 }
 
-export default App;
+export default ToDoList;

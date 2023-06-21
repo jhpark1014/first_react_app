@@ -3,7 +3,7 @@
 
 import { useState, useEffect } from "react";
 
-function App() {
+function CoinTracker() {
   const [loading, setLoading] = useState(true);
   const [coins, setCoins] = useState([]); // if default is null, no length -> 밑에 에러
   useEffect(() => {
@@ -56,4 +56,4 @@ function App() {
   );
 }
 
-export default App;
+export default CoinTracker;
